@@ -1,20 +1,9 @@
-#Roll the dice.
-import random
+#Create a dice which prints random numbers.
 
-while True:
-    dice = input("Roll the dice? (y/n): ").lower()
-    if dice == "y":
-        dice1 = random.randint(1, 6)
-        dice2 = random.randint(1, 6)
-        print(dice1, dice2)
-    elif dice == "n":
-        print(f"Thanks for playing!")
-        break
-    else:
-        print("Invalid choice!")
-
-
-
+#Question - Enter the number (y or n)
+#when we enter y we should generate the random numbers
+#when we enter n we should print (Thanks) and terminate
+#when we enter another string which is not mentioned then print(Invalid choice)
 
 
 
