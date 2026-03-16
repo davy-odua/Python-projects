@@ -15,10 +15,10 @@ while dicing:
         dice2 = random.randint(1, 6)
         print(f"({dice1}, {dice2})")
     elif dice == "n":
-        print(f"Thanks for playing!")
+        print("Thanks for playing!")
         break
     else:
-        print(f"Invalid choice")
+        print("Invalid choice")
 
 
 
