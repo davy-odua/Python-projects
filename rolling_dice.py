@@ -18,7 +18,7 @@ while dicing:
         print(f"Thanks for playing!")
         break
     else:
-        print("Invalid choice")
+        print(f"Invalid choice")
 
 
 
