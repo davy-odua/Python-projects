@@ -7,9 +7,9 @@
 #loop when you enter an invalid choice.
 import random
 
-dicing = True
-while dicing:
-    dice = input("Enter the number? (y/n): ")
+dicing = False
+while not dicing:
+    dice = input("Enter the number? (y/n): ").lower()
     if dice == "y":
         dice1 = random.randint(1, 6)
         dice2 = random.randint(1, 6)
