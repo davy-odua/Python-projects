@@ -5,7 +5,6 @@
 #2. When we enter n we should print (Thanks) and terminate
 #when we enter another string which is not mentioned then print(Invalid choice)
 #loop when you enter an invalid choice.
-
 import random
 
 dicing = False
