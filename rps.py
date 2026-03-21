@@ -20,9 +20,9 @@ while True:
                 print("Game over")
                 break
 
-        elif (comp_choice == "R" and my_choice == "P") or \
-             (comp_choice == "P" and my_choice == "S") or \
-             (comp_choice == "R" and my_choice == "R"):
+        elif ((comp_choice == "R" and my_choice == "P") or
+             (comp_choice == "P" and my_choice == "S") or
+             (comp_choice == "R" and my_choice == "R")):
             print("You win")
             cont = input("Do you want to continue? (y/n): ").lower()
             if cont == "y":
