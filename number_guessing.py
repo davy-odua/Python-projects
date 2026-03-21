@@ -1,6 +1,5 @@
 #NUMBER GUESSING GAME
 #Dice rolling
-
 import random
 
 rand = random.randint(1, 100)

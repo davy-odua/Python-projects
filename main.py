@@ -14,3 +14,15 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+
+
+
+
+#REFACTORING = Changing the structure of our code without changing its functionality
+# COMMON REFACTORING TECHNIQUE (MODULARIZATION)
+# Modularization = Breaking down a large program into smaller
+#                  reusable parts called modules or functions
+
+
